@@ -3,6 +3,9 @@ menu:
   Home: /
   Archives: /archives
   Links: /links
+menu_icon:
+  Home: home
+  Archives: archive
 rss: /atom.xml
 
 # Content
