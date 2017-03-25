@@ -1,0 +1,35 @@
+#backtoTop {
+    background-color: #eee;
+    border-radius: 100%;
+    bottom: 5%;
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    right: -100px;
+    z-index: 99;
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+            transition: 0.5s;
+    &.display {right: 10px;}
+}
+.percentage {
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 48px;
+    color: #555;
+    cursor: pointer;
+    &:before {content:attr(data-percent);}
+    &:hover:before {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\f176";
+    }
+}
