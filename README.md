@@ -2,14 +2,15 @@
 
 A brand new default theme for [Hexo].
 
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+- [Preview](https://philosophos.github.io/)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+$ git clone https://github.com/philosophos/hexo-theme-landscape-more.git
+themes/landscape-more
 ```
 
 **Landscape requires Hexo 2.4 and above.** If you would like to enable the RSS, the [hexo-generate-feed] plugin is also required.
