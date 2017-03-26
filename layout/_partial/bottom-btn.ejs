@@ -1,0 +1,9 @@
+<div class="bottom-btn">
+<% if (is_post()&& (page.toc !== false) && theme.toc.aside){ %>
+	<a class="icon-toc-toggle" href="javascript:void(0)" title="content"></a>
+	<!--
+	<script src="<%- config.root %>js/toc_aside_toggle.js"></script>
+	-->
+<% } %>
+</div>
+<%- js('js/toc_aside_toggle') %>
