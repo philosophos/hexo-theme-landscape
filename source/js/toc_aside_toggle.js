@@ -74,7 +74,7 @@
 		to.css('display', 'block');
 	} else {
 		if (tl.length>10) {
-			ta.css('width', 'auto').css('margin', '1.6em 0 1.6em 2em');
+			ta.css('width', 'auto').css('margin', '0 1em 1.6em 2em');
 		}
 		to.css('display', 'none');
 	}
