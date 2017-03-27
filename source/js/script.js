@@ -167,7 +167,7 @@
             totop.addClass("display");
             ctx.clearRect(0, 0, width, height);
             draw_circle('#efefef', 1);
-            draw_circle('#009999', per/100);
+            draw_circle('#00c080', per/100);
         } else
             totop.removeClass("display");
         percent.attr("data-percent", per);
